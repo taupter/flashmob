@@ -15,13 +15,13 @@ class QString;
 class QStringList;
 QT_END_NAMESPACE
 
-class MoibleDevicePluginInterface : public QObject
+class MobileDevicePluginInterface : public QObject
 {
     Q_OBJECT
 public:
     enum DeviceType { Handset, Speaker, Headset };
 
-    virtual ~TmipCallPluginInterface() {}
+    virtual ~MobileDevicePluginInterface() {}
 
     virtual void init(qint64) = 0;
     virtual QString model() = 0;
