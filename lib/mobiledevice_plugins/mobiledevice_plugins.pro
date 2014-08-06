@@ -1,5 +1,4 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    FlashMob \
-    lib
+    mobdev_rkandroid
